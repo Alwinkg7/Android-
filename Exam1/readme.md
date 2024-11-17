@@ -1,1 +1,1 @@
-To find marks of student
+To find marks of students
