@@ -1,1 +1,1 @@
-Create an activity accept username and password. on succesfull login calculate the closest pair among 3 numbers in second activity
+Create an activity accept username and password. on succesfull login find the smallest digit divisible by 5 in second activity
