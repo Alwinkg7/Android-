@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMark1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mark 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMark2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mark 2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMark3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mark 3"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Percentage" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Result will be displayed here"
+        android:textSize="16sp" />
+</LinearLayout>
